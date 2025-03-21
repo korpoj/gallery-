@@ -135,6 +135,11 @@
         document.getElementById("dynamic-text").textContent = "Description not available.";
     });
 
+    const element = document.getElementById("image");
+  element.addEventListener("copy", function (e) {
+    e.preventDefault();
+  });
+
 
     </script>
 </body>
